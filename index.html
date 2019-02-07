@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generador de gradients</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+<br>
+<br>
+<br>
+    
+        <div class="container">
+<div class="form-row">
+<div class="form-group col-md-6">
+<label for="Color1" id="lcolor">First Color </label>
+<input type="color" class="form-control" id="color1" placeholder="First Color" >
+</div>
+
+<div class="form-group col-md-6">
+<label for="Color2" id="lcolor" >Second Color</label>
+<input type="color" class="form-control" id="color2" placeholder="Second Color" >
+</div>
+</div>
+
+<button type="submit" onclick="generarGradient()"  class="btn btn-primary btn-block"> Generar</button>
+</div>
+
+ <br>
+ <br>
+<div class="container">
+<div class="jumbotron jumbotron-fluid" id="jumbox">
+<br>
+<div id="css1" style="color:white; text-align:center;"></div>
+<br>
+</div>
+
+</div>
+<br>
+<br>
+<div class="container">
+<div class="form-row">
+    <div class="form-group col-md-4">
+        <label for="Color11" id="lcolor">First Color</label>
+        <input type="color" class="form-control " id="color11" placeholder="First Color">
+    </div>   
+     <div class="form-group col-md-4">
+        <label for="color22" id="lcolor">Second Color</label>
+        <input type="color" class="form-control " id="color22" placeholder="Second Color">
+     </div>
+     <div class="form-group col-md-4">
+        <label for="color3" id="lcolor">Third Color</label>
+        <input type="color" class="form-control " id="color3" placeholder="Third Color">
+     </div>
+</div>
+<button type="sumbit" onclick="geneGradient()" class="btn btn-primary btn-block">GENERAR</button>
+<br>
+<br>
+<div class="container">
+        <div class="jumbotron jumbotron-fluid" id="jumbox2">
+<br>
+<div id="css2" style="color:white; text-align: center;"></div>
+<br>
+
+        </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+
+
+
+    
+        <script src="creator.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
